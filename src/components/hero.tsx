@@ -19,7 +19,7 @@ export default function Hero() {
           alt="Mohammed Khalifa"
           width={300}
           height={300}
-          className="max-w-xs rounded-lg shadow-2xl h-72 sm:h-full"
+          className="max-w-xs rounded-lg shadow-2xl h-auto sm:h-full"
           data-aos="fade-right"
         />
         <div data-aos="fade-left">
