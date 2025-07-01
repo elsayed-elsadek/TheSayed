@@ -3,6 +3,7 @@ import { projects } from '../data/projectsData';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from "next/image";
 
 export default function Projects() {
   useEffect(() => {
@@ -20,9 +21,11 @@ export default function Projects() {
           data-aos-delay={index * 100}
         >
           <figure className="overflow-hidden flex items-center justify-center h-52">
-            <img
+            <Image
               src={project.imageSrc.replace('/my-protfolio-main/public', '')}
               alt={project.title}
+              width={400}
+              height={300}
               className="w-full h-full object-center sm:object-contain lg:object-cover"
             />
           </figure>

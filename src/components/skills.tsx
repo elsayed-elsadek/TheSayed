@@ -9,7 +9,6 @@ import {
   Github,
   Paintbrush,
   MousePointerClick,
-  Network,
 } from "lucide-react";
 import { useEffect } from "react";
 import AOS from 'aos';

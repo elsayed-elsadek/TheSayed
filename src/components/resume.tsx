@@ -43,7 +43,7 @@ export default function Resume() {
         <div className="card shadow-lg p-6 bg-base-200" data-aos="fade-up">
           <h3 className="text-2xl font-semibold mb-4">Education</h3>
           <p>
-            <strong>Bachelor’s in Computer Science (4th Year Student)</strong><br />
+            <strong>Bachelor&#39;s in Computer Science (4th Year Student)</strong><br />
             Faculty of Computer and Information, Menoufia University, Egypt<br />
             10/09/2020 – Present
           </p>
@@ -61,7 +61,7 @@ export default function Resume() {
               <div>
                 <strong>Frontend Developer</strong>
                 <br />
-                I'm a frontend developer with experience in building responsive and
+                I&#39;m a frontend developer with experience in building responsive and
                 optimized sites using modern technologies like React.js.
               </div>
             </div>

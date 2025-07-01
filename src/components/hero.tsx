@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // تأكد من استيراد ملف CSS لتأثيرات AOS
+import Image from "next/image";
 
 export default function Hero() {
   useEffect(() => {
@@ -13,9 +14,11 @@ export default function Hero() {
   return (
     <div className="hero bg-base-200 min-h-screen" id="about">
       <div className="hero-content flex-col lg:flex-row">
-        <img
+        <Image
           src="/my-4.jpeg"
           alt="Mohammed Khalifa"
+          width={300}
+          height={300}
           className="max-w-xs rounded-lg shadow-2xl h-72 sm:h-full"
           data-aos="fade-right"
         />
