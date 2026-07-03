@@ -2,6 +2,16 @@
 // This file contains the projects data array for the portfolio
 
 export const projects = [
+
+
+  {
+    id: "eduNest",
+    title: "EduNest",
+    imageSrc: "/my-protfolio-main/public/EduNest.webp",
+    description: "EduNest — Learn. Mentor. Grow. EduNest is a modern mentoring and learning platform designed to connect students with professional mentors through a secure, scalable, and interactive learning experience.",
+    demo: "https://drive.google.com/drive/folders/1j498h_RKjgPbMeZVflGgyk_g0_E-B5Y4",
+    source: "https://github.com/elsayed-elsadek/edunest"
+  },
   {
     id: "ecommerce",
     title: "E-commerce",
