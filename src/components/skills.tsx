@@ -13,7 +13,7 @@ import {
 import { useEffect, useState } from "react";
 import AOS from 'aos';
 // AOS CSS import has no TS types in this project.
-// @ts-expect-error - missing declaration for 'aos/dist/aos.css'
+
 import 'aos/dist/aos.css';
 
 export default function Skills() {
